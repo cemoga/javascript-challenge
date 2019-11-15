@@ -25,16 +25,18 @@ button.on("click", function() {
     console.log(filteredData);
   
   
-    // Then, select the unordered list element by class name
-    var list = d3.select("#tbody");
+    // Then, select the unordered table element
+    var tbody = d3.select("tbody");
   
-    // remove any children from the list to
-    list.html("");
+    // remove any children from the table to
+    tbody.html("");
   
-    // append stats to the list
-    list.append("li").text(`Mean: ${mean}`);
-    list.append("li").text(`Median: ${median}`);
-    list.append("li").text(`Mode: ${mode}`);
-    list.append("li").text(`Variance: ${variance}`);
-    list.append("li").text(`Standard Deviation: ${standardDeviation}`);
+    filteredData.forEach(UFOsight => {
+        var row = tbody.append("tr");
+        Object.entries(UFOsight).forEach(([key, value]) => {
+          var cell = row.append("td");
+          cell.text(value);
+        });
+      });
+    
   });

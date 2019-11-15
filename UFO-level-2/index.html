@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -23,31 +26,55 @@
     </nav>
     <div class="hero text-center" style="color: rgb(39, 39, 39);">
       <h1>UFO Sightings</h1>
+      <hr>
       <p>The Truth is Out There</p>
     </div>
     <div class="container">
-      <div class="row margin-top-50">
-        <div class="col-md-2">
-          <aside class="filters">
-            <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
-              <div class="panel-body">
-                <form>
-                  <div class="form-group">
-                    <ul class="list-group" id="filters">
-                      <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
-                      </li>
-                    </ul>
-                  </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-                </form>
-              </div>
-            </div>
-          </aside>
+      <div class="row">
+        <div class="container">
+          <h2>UFO Sightings</h2>
+          <hr>
+          <p>Select on the criteria you want to use to filter the UFO Sightings:</p>
+          <form>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" value="date" checked>Date
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" value="city">City
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" value="state">State
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" value="country">Country
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" value="shape">Shape
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="optradio" value="all">All
+            </label>
+          </form>
+          <hr>
         </div>
-        <div class="col-md-10">
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <form>
+              <div class="form-group">
+                <label for="label">Text Instructions</label>
+                <input class="form-control" id="form-input" name="date-form" type="text" placeholder="Placeholder">
+              </div>
+              <button id="button" type="button" class="btn btn-default">Search</button>
+            </form>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row margin-top-50">
+        <div class="col-md-12">
           <div id="table-area" class="">
             <table id="ufo-table" class="table table-striped">
               <thead style="color: white; background-color: rgb(6, 6, 36);">
