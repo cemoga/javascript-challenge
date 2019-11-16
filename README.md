@@ -7,11 +7,13 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 
 ### Website Running 
 
-![Initial](Missions_to_Mars/ScreenShots/app_running.gif "App Running`")
+![Running Level 2](Web-Samples/UFO-Level-2.gif "Web Running")
 
 ### Sample website
-
-![Initial](Missions_to_Mars/ScreenShots/2_Final.png "Page before running the `Scrape New Data`")
+- UFO-Level-1
+![Running Level 2](Missions_to_Mars/ScreenShots/2_Final.png "Page before running the `Scrape New Data`")
+- UFO-Level-2
+![Running Level 2](Missions_to_Mars/ScreenShots/2_Final.png "Page before running the `Scrape New Data`")
 
 <hr>
 
@@ -45,5 +47,5 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 #### - `UFO-Level-2`
 - Contains the files to run the `Level-2`part of the project.
 - All the files and folders are the same than for the `UFO-Level-1`folder.
-#### - `Web Samples`
+#### - `Web-Samples`
 - It contains sample images of the website.
