@@ -11,6 +11,23 @@ txtPlace = d3.select(".form-group label");
 placeholderPlace = d3.select(".form-control");
 // Define the search button
 button = d3.select("button");
+// Define header of table
+headerTable = d3.select("thead")
+
+// When firt loaded the page has the date radio button pressed by default 
+// these are the default values if no radio button is pressed
+{
+  // Hide header table
+  headerTable.style("opacity", 0)
+  // Define the field of the data to search for
+  attribute = "datetime"
+  // Assigns the text over the input field              
+  txtPlace.text("Type the date you want to look for:")
+  // Assigns the text of the search button
+  button.text("Search Date")
+  // Assigns the text to the placeholder in the input field
+  placeholderPlace.attr("placeholder", "1/1/2010")
+};
 
 // If the user presses the "Enter" key
 // The program behaves like if the search button is pressed
@@ -23,19 +40,6 @@ inputElement.on("keypress", function () {
   }
 });
 
-// When firt loaded the page has the date radio button pressed by default 
-// these are the default values if no radio button is pressed
-{
-  // Define the field of the data to search for
-  attribute = "datetime"
-  // Assigns the text over the input field              
-  txtPlace.text("Type the date you want to look for:")
-  // Assigns the text of the search button
-  button.text("Search Date")
-  // Assigns the text to the placeholder in the input field
-  placeholderPlace.attr("placeholder", "1/1/2010")
-};
-
 // Define the actions when the radio buttons are selected
 radioButtons.on('change', function () {
   var selection = this.value
@@ -45,6 +49,11 @@ radioButtons.on('change', function () {
   // Clears any previous table with results
   var tbody = d3.select("tbody");
   tbody.html("");
+  // Hide header table
+  headerTable.style("opacity", 0)
+  // Disable seach field and button
+  button.property("disabled", false)
+  inputElement.property("disabled", false)
   if (selection == 'date') {
     // Define the field of the data to search for
     attribute = "datetime"
@@ -91,6 +100,17 @@ radioButtons.on('change', function () {
     // Assigns the text to the placeholder in the input field
     placeholderPlace.attr("placeholder", "triangle")
   } else if (selection == 'all') {
+    // Assigns the text over the input field        
+    txtPlace.text("All UFO Sighting Data with no filters:")
+    // Assigns the text of the search button
+    button.text("Search")
+    // Disable seach field and button
+    button.property("disabled", true)
+    inputElement.property("disabled", true)
+    // Assigns the text to the placeholder in the input field
+    placeholderPlace.attr("placeholder", "all data")
+    // show header
+    headerTable.style("opacity", 1)
     // Brings all the data to a table with no filters
     tableData.forEach(UFOsight => {
       var row = tbody.append("tr");
@@ -120,6 +140,9 @@ button.on("click", function () {
   } else if (filteredData == "") {
     alert("Your search did not return any data \n Please try again or press 'All Data' ");
     placeholderPlace.property("value", "");
+  } else if (filteredData != "") {
+    // show header
+    headerTable.style("opacity", 1)
   };
 
   console.log(filteredData);
