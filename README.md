@@ -1,7 +1,7 @@
 # Project Javascript
 
 ## Project Description
-The goal of the project was to use HTML, Javascript and the D3.js library to filter and display a dataset based on different filterinng criteria. 
+The goal of the project was to use HTML, Javascript, and the D3.js library to filter and display a dataset based on different filtering criteria. 
 - The `/UFO-Level-1`folder contains the files to only filtered the data by date.  
 - The `/UFO-Level-2`folder contains the modified files that filter the data by date and multiple criteria.
 
@@ -25,20 +25,20 @@ The goal of the project was to use HTML, Javascript and the D3.js library to fil
 # File Description
 ### - `javascript-challenge/`
 #### - `UFO-Level-1`
-- Contains the files tu run the `Level-1`part of the project
+- Contains the files to run the `Level-1`part of the project
 ##### - index.html
-- Contains the HTML code necessary to interact with the final user.
+- It contains the HTML code necessary to interact with the final user.
 - The index file references and uses `.css`, `.js` code contain in the `UFO-Level-1/static` folder.
 ##### - `css` 
 ###### - `style.css`
-- Contains all the necessary information to format the `UFO-Level-1/index.html`file.
+- It contains all the necessary information to format the `UFO-Level-1/index.html`file.
 ##### - `images` 
 ###### - `nasa.jpg`
-- Contains a photo of mars from the www.nasa.com website and it is used in the `UFO-Level-1/index.html`file.
+- It contains a photo of mars from the www.nasa.com website and it is used in the `UFO-Level-1/index.html`file.
 ###### - `ufo.svg`
-- Contains an sgv file with the website logo used in the `UFO-Level-1/index.html`file..
+- It contains an sgv file with the website logo used in the `UFO-Level-1/index.html`file..
 ##### - `js` 
 ###### - `app.js`
-- Contains the Javascript code that interacts with the final user and shows the data used in the `UFO-Level-1/index.html`file.
+- It contains the Javascript code that interacts with the final user and shows the data used in the `UFO-Level-1/index.html`file.
 ###### - `data.js`
-- Contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html`file.
+- It contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html`file.
