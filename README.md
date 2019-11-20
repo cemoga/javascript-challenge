@@ -6,8 +6,10 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 - The `/UFO-Level-2`folder contains the modified files that filter the data by date and multiple criteria.
 
 ### Website Running 
-
+- UFO-Level-2
 ![Running Level 2](Web-Samples/UFO-Level-2.gif "Web Running")
+- UFO-Level-3 
+![Running Level 3](Web-Samples/UFO-Level-3.gif "Web Running")
 
 ### Sample website
 - UFO-Level-1
@@ -20,7 +22,8 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 ## Instructions
 
 1. - For the first part of the project, open the `/UFO-Level-1/index.html` and follow the instructions shown there.
-2. - For the most advanced part of the project, open the `/UFO-Level-2/index.html` and follow the instructions shown there.
+2. - For the more advanced part of the project, open the `/UFO-Level-2/index.html` and follow the instructions shown there.
+3. - For the most advanced part of the project, open the `/UFO-Level-3/index.html` and follow the instructions shown there.
 
 <hr>
 
@@ -46,6 +49,9 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 - It contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html`file.
 #### - `UFO-Level-2`
 - Contains the files to run the `Level-2`part of the project.
+- All the files and folders are the same than for the `UFO-Level-1`folder.
+#### - `UFO-Level-3`
+- Contains the files to run the `Level-3`part of the project.
 - All the files and folders are the same than for the `UFO-Level-1`folder.
 #### - `Web-Samples`
 - It contains sample images of the website.
