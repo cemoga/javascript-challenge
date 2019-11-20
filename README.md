@@ -20,8 +20,15 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 
 ### Sample website
 - UFO-Level-1
+<hr> 
+
 ![Static Level 1](Web-Samples/UFO-Level-1.png "Sample Level 1")
+
+<hr>
+
 - UFO-Level-2
+<hr> 
+
 ![Static Level 2](Web-Samples/UFO-Level-2.png "Sample Level 2")
 
 <hr>
