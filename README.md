@@ -8,10 +8,13 @@ The goal of the project was to use HTML, Javascript, and the D3.js library to fi
 ### Website Running 
 - UFO-Level-2
 <hr>
+
 ![Running Level 2](Web-Samples/UFO-Level-2.gif "Web Running")
 <hr>
+
 - UFO-Level-3 
 <hr>
+
 ![Running Level 3](Web-Samples/UFO-Level-3.gif "Web Running")
 <hr>
 
