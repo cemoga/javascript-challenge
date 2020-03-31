@@ -39,54 +39,49 @@ UFO-Level-2
 
 ## File Description
 
-### - `javascript-challenge/`
-
-#### - `UFO-Level-1`
-
-- Contains the files to run the `Level-1`part of the project.+
-
-##### - index.html
-
-- It contains the HTML code necessary to interact with the final user.
-- The index file references and uses `.css`, `.js` code contained in the `UFO-Level-1/static` folder.
-
-##### - `css`
-
-###### - `style.css`
-
-- It contains all the necessary information to format the `UFO-Level-1/index.html` file.
-
-##### - `images`
-
-###### - `nasa.jpg`
-
-- It contains a photo of mars from the www.nasa.com website and it is used in the `UFO-Level-1/index.html` file.
-
-###### - `ufo.svg`
-
-- It contains a `.sgv` file with the website logo used in the `UFO-Level-1/index.html` file.
-
-##### - `js`
-
-###### - `app.js`
-
-- It contains the Javascript code that interacts with the final user and shows the data used in the `UFO-Level-1/index.html`file.
-
-###### - `data.js`
-
-- It contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html`file.
-
-#### - `UFO-Level-2`
-
-- Contains the files to run the `Level-2` part of the project.
-
-- All the files and folders are the same as the `UFO-Level-1`folder.
-
-#### - `UFO-Level-3`
-
-- Contains the files to run the `Level-3`part of the project.
-- All the files and folders are the same as the `UFO-Level-1`folder.
-
-#### - `Web-Samples`
-
-- It contains sample images of the website.
+<ul>
+    <li>UFO-Level-1</li>
+    Contains the files to run the `Level-1`part of the project.+
+    <ul>
+        <li>Static</li>
+        <ul>
+            <li>index.html</li>
+            <ul>
+                <li>It contains the HTML code necessary to interact with the final user.</li>
+                <li>The index file references and uses `.css`, `.js` code contained in the
+                    `UFO-Level-1/static` fulder.</li>
+            </ul>
+            <li>css</li>
+            <ul>
+                <li> It contains all the necessary information to format the `UFO-Level-1/index.html` file.</li>
+            </ul>
+            <li>Images</li>
+            <ul>
+                <li>nasa.jpg</li>
+                It contains a photo of mars from the www.nasa.com website and it is used in the `UFO-Level-1/index.html`
+                file.
+                <li>ufo.svg</li>
+                It contains a `.sgv` file with the website logo used in the `UFO-Level-1/index.html` file.
+            </ul>
+            <li>js</li>
+            <ul>
+                <li>app.js</li>
+                It contains the Javascript code that interacts with the final user and shows the data used in the
+                `UFO-Level-1/index.html`file.
+                <li>data.js</li>
+                It contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html`file.
+            </ul>
+        </ul>
+    </ul>
+    <li>UFO-Level-2</li>
+    <ul>
+        <li>Contains the files to run the `Level-2` part of the project.</li>
+        <li>All the files and fulders are the same as the `UFO-Level-1`fulder.</li>
+    </ul>
+    <li>UFO-Level-3</li>
+    <ul>
+        <li>Contains the files to run the `Level-3` part of the project.</li>
+        <li>All the files and fulders are the same as the `UFO-Level-1`fulder.</li>
+    </ul>
+    <ul>
+    </ul>
