@@ -1,47 +1,43 @@
-# Project Javascript
-
-## Project Description
-The goal of the project was to use HTML, Javascript, and the D3.js library to filter and display a dataset based on different filtering criteria. 
-- The `/UFO-Level-1`folder contains the files to only filtered the data by date.  
-- The `/UFO-Level-2`folder contains the modified files that filter the data by date and multiple criteria.
-
-### Website Running 
-- UFO-Level-2
-<hr>
-
-![Running Level 2](Web-Samples/UFO-Level-2.gif "Web Running")
-<hr>
-
-- UFO-Level-3 
-<hr>
+# Javascript - UFO Sighting Visualization
 
 ![Running Level 3](Web-Samples/UFO-Level-3.gif "Web Running")
-<hr>
+UFO-Level-3
+
+---
+
+## Project Description
+
+The goal of the project was to visualize UFO Sighting Data by using HTML, Javascript, Bootstrap and the D3.js library. Different levels were used to add new and more complex interactive filters to the visualization.
+
+- The `/UFO-Level-1`folder contains the files to only filtered the data by date.  
+- The `/UFO-Level-2`folder contains the modified files that filter the data by date and multiple criteria.
+- The `/UFO-Level-2`folder contains the modified files that allow filtering by using dropdown menus instead of typing.
+
+---
 
 ### Sample website
-- UFO-Level-1
-<hr> 
+
+UFO-Level-1
 
 ![Static Level 1](Web-Samples/UFO-Level-1.png "Sample Level 1")
 
-<hr>
+---
 
-- UFO-Level-2
-<hr> 
+UFO-Level-2
 
 ![Static Level 2](Web-Samples/UFO-Level-2.png "Sample Level 2")
 
-<hr>
+---
 
 ## Instructions
 
-1. - For the first part of the project, open the `/UFO-Level-1/index.html` and follow the instructions shown there.
-2. - For the more advanced part of the project, open the `/UFO-Level-2/index.html` and follow the instructions shown there.
-3. - For the most advanced part of the project, open the `/UFO-Level-3/index.html` and follow the instructions shown there.
+1. For the first part of the project, open the `/UFO-Level-1/index.html` and follow the instructions shown there.
+2. For the more advanced part of the project, open the `/UFO-Level-2/index.html` and follow the instructions shown there.
+3. For the most advanced part of the project, open the `/UFO-Level-3/index.html` and follow the instructions shown there.
 
-<hr>
+---
 
-# File Description
+#· File Description
 ### - `javascript-challenge/`
 #### - `UFO-Level-1`
 - Contains the files to run the `Level-1`part of the project.+
