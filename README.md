@@ -58,7 +58,7 @@ UFO-Level-2
             <li>Images</li>
             <ul>
                 <li>nasa.jpg</li>
-                It contains a photo of mars from the www.nasa.com website and it is used in the `UFO-Level-1/index.html`
+                It contains a photo of mars from the www.nasa.gov website and it is used in the `UFO-Level-1/index.html`
                 file.
                 <li>ufo.svg</li>
                 It contains a `.sgv` file with the website logo used in the `UFO-Level-1/index.html` file.
