@@ -40,7 +40,7 @@ UFO-Level-2
 ## File Description
 
 <ul>
-    <li>UFO-Level-1</li>
+    <li><b>UFO-Level-1</b></li>
     Contains the files to run the `Level-1`part of the project.+
     <ul>
         <li>Static</li>
@@ -49,7 +49,7 @@ UFO-Level-2
             <ul>
                 <li>It contains the HTML code necessary to interact with the final user.</li>
                 <li>The index file references and uses `.css`, `.js` code contained in the
-                    `UFO-Level-1/static` fulder.</li>
+                    `UFO-Level-1/static` folder.</li>
             </ul>
             <li>css</li>
             <ul>
@@ -67,21 +67,21 @@ UFO-Level-2
             <ul>
                 <li>app.js</li>
                 It contains the Javascript code that interacts with the final user and shows the data used in the
-                `UFO-Level-1/index.html`file.
+                `UFO-Level-1/index.html` file.
                 <li>data.js</li>
-                It contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html`file.
+                It contains the UFO Sightings data filtered and displayed in the `UFO-Level-1/index.html` file.
             </ul>
         </ul>
     </ul>
-    <li>UFO-Level-2</li>
+    <li><b>UFO-Level-2</b></li>
     <ul>
-        <li>Contains the files to run the `Level-2` part of the project.</li>
-        <li>All the files and fulders are the same as the `UFO-Level-1`fulder.</li>
+        <li>It contains the files to run the `Level-2` part of the project.</li>
+        <li>All the files and folders are the same as the `UFO-Level-1`fulder.</li>
     </ul>
-    <li>UFO-Level-3</li>
+    <li><b>UFO-Level-3</b></li>
     <ul>
-        <li>Contains the files to run the `Level-3` part of the project.</li>
-        <li>All the files and fulders are the same as the `UFO-Level-1`fulder.</li>
+        <li>It contains the files to run the `Level-3` part of the project.</li>
+        <li>All the files and folders are the same as the `UFO-Level-1`fulder.</li>
     </ul>
     <ul>
-    </ul>
+</ul>
